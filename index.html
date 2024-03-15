@@ -8,35 +8,38 @@
 <!-- Font Awesome CDN for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 <body>
 
-<header >
+<header>
+
+  <div class="topnav" id="myTopnav">
   
-  <div class="logo_container">
-      <a href="#"><img class="myntra_home" src="Images/logo.jpeg" alt="Logo Home"></a>
+    <a href="#" class="active">Home</a>
+    <a href="#service">Services</a>
+    <a href="./Pages/about.html">About US</a>
+    <a href="#">Contact Us</a>
+    <a href="./Pages/privacy.html">Privacy Policy</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <nav class="nav_bar">
-      <a href="#">Home</a>
-      <a href="#">Services</a>
-      <a href="#">About US</a>
-      <a href="#">Contact Us</a>
-      <a href="#">Privacy Policy</a>
-      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-        <i class="fa fa-bars"></i>
-      </a>
-  </nav>
+  
+
 </header>
 <br>
 
-<marquee behavior="scroll" direction="left" style="background-color: #ffd700; color: #000; padding: 10px; font-size: 16px; font-weight: bold;">
+<div class="marquee-container">
+  <div class="marquee-content">
+    Astrologer Love Guru Love Problem Solution Family Problem Solution Love Marriage Expert Husband & Wife Problem Lost Love Back Specialist Intercaste Love Marriage
+    <span style="color: red;">Call : +91 9351786147</span>
+  </div>
+</div>
 
-  Astrologer Love Guru Love Problem Solution Family Problem Solution Love Marriage Expert Husband & Wife Problem Lost Love Back Specialist Intercaste Love Marriage
-  <span style="color: red;">Call : +91 9351786147</span>
-  
-  </marquee>
   
 
 <!-- Slider  -->
@@ -46,7 +49,7 @@
 
 
 
-<div class="services-container">
+<div class="services-container" >
   <div class="our-service">
     <img src="Images/lovm'.jpeg" alt="Service 1">
     <h3>Love Marriage Expert</h3>
@@ -110,7 +113,7 @@
 
 
 
-  <section class="services">
+  <section class="services" id="service">
     <div class="service">
       <h2>Love Problem Specialist</h2>
       <p>We offer professional love problem solving services tailored to your needs.</p>
@@ -132,14 +135,14 @@
 
   <div class="services-container">
 
-    
     <div class="service-card">
-      <img src="./Images/true.jpeg" alt="Service 1" style="width: 200px; height: 200px;">
-      <h3>True Love Back</h3>
-      <button class="know-more-btn">
-        <a href="https://api.whatsapp.com/send?phone=9123480519" target="_blank" rel="noopener noreferrer">Know More</a>
-      </button>
+      <img src="./Images/true.jpeg" alt="Service 1">
+      <h3>Delay in Marriage</h3>
+      <button class="know-more-btn">Know More</button>
     </div>
+
+    
+    
 
     <div class="service-card">
       <img src="./Images/marry.jpeg" alt="Service 1">
